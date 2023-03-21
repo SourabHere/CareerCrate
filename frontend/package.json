@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/parcel/lib/cli index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "parcel": "^2.8.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^5.7.1",
+    "events": "^3.3.0",
+    "https-browserify": "^1.0.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "punycode": "^1.4.1",
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0",
+    "util": "^0.12.5"
+  }
+}

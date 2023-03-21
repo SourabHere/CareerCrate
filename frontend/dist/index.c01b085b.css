@@ -1,0 +1,95 @@
+body {
+  background-image: url("https://wallpapercave.com/wp/wp9139711.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+.signup-container {
+  background-color: #ffffff90;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 0 0 10px #0000004d;
+}
+
+form {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: 0 0 10px #0000004d;
+}
+
+.btn {
+  width: 100%;
+  color: #fff;
+  cursor: pointer;
+  background-color: #00bfff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  transition: all .3s;
+}
+
+.btn:hover {
+  background-color: teal;
+}
+
+.social-links {
+  margin-top: 20px;
+  display: flex;
+}
+
+.social-links a {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #2196f3;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  transition: all .3s;
+  display: flex;
+}
+
+.social-links a:hover {
+  color: #fff;
+  background-color: #1976d2;
+}
+
+.social-links i {
+  font-size: 20px;
+}
+
+.error-container {
+  justify-content: center;
+  display: none;
+}
+
+.jobless-card-subtitle {
+  text-align: center;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=index.c01b085b.css.map */
